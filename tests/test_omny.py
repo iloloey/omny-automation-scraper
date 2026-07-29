@@ -20,7 +20,7 @@ class TestOmnyWorkflow:
         history_page = HistoryPage(driver)
         
         # 2. Perform Login Flow
-        with allure.step("Navigate to OMNY Sign-in"):
+        with allure.step("Navigate to OMNY Sign-in screen"):
             login_page.open_url("https://omny.info/signin")
             login_page.zoom_page("80%")
         with allure.step("Authenticate Credentials"):
